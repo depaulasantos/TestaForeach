@@ -1,0 +1,5 @@
+teste
+linha 1
+linha a
+linha 4
+fim
