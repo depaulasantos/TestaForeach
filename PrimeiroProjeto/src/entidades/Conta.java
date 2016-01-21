@@ -1,3 +1,5 @@
+package entidades;
+
 abstract class Conta {
 	private int numero;
 	private double saldo;

@@ -1,6 +1,11 @@
+package testes;
+
+import entidades.ContaCorrente;
+import entidades.ContaPoupanca;
+
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Teste");
+		// System.out.println("Teste");
 		// System.out.println();
 		ContaPoupanca cp = new ContaPoupanca();
 
@@ -9,6 +14,8 @@ public class Main {
 		cp.diaDoAniversario = 23;
 
 		cp.imprimeExtratoDetalhado();
+
+		ContaCorrente cc = new ContaCorrente();
 
 	}
 }
